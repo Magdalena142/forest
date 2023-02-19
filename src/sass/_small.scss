@@ -1,0 +1,21 @@
+@media (min-width: 576px) {
+	.aboutus {
+		&__box {
+            display: flex;
+			flex-direction: row;
+			//justify-content: space-around;
+
+			&-img {
+				width: 45%;
+			}
+			&-text {
+				width: 40%;
+			}
+		}
+		&__img {
+			max-height: 400px;
+			margin-right: 1em;
+			margin-bottom: 0;
+		}
+	}
+}

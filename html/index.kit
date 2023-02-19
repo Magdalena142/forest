@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- @include 'styles.kit' -->
+    <script src="https://kit.fontawesome.com/7d9f555cba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- nawigacja -->
+    <!-- @include 'nav.kit' -->
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__shadow"></div>
+        <h1 class="header__heading">Forest Group</h1>
+        <p class="header__text">Najpiękniejszy park w Twojej okolicy!</p>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <!-- o nas -->
+        <section id="aboutus" class="aboutus section-padding">
+            <div class="wrapper">
+                <h2 class="section-heading">O nas</h2>
+                <div class="aboutus__box">
+                    <div class="aboutus__box-img">
+                        <img src="dist/img/aboutus.jpg" alt="Ścieżka w tropikalnym lesie" class="aboutus__img">
+                    </div>
+                    <div class="aboutus__box-text">
+                        <h3 class="aboutus__title">Niezapomniane przygody</h3>
+                        <p class="aboutus__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+                            odit commodi, repellendus, dignissimos veniam fugiat corrupti molestiae similique tempore
+                            quaerat culpa praesentium eaque nihil possimus animi temporibus quisquam nisi voluptate,
+                            inventore soluta! Aut, doloribus tempora. Aperiam corporis modi nam fugiat deserunt
+                            reprehenderit fugit dignissimos perferendis doloremque temporibus saepe, quam quisquam,
+                            veniam distinctio? Quia dolorum vitae ut, unde velit cum at.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-img -->
+        <section class="hero-img">
+            <div class="hero-img__shadow"></div>
+            <p class="hero-img__title">Przygoda dla całej rodziny</p>
+        </section>
+
+        <!-- oferta -->
+        <section id="offers" class="offers wrapper section-padding">
+            <h2 class="section-heading">Oferta</h2>
+            <p class="offers-text">Wybierz jedną z naszych wspaniałych ofert!</p>
+            <div class="offers__cards">
+                <!-- -offers1 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$0</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                        </ul>
+                        <button class="offers__card-info-btn btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+                <!-- -offers2 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$99</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                        </ul>
+                        <button class="offers__card-info-btn colored btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+                <!-- -offers3 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$299</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                        </ul>
+                        <button class="offers__card-info-btn btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+            </div>
+            <div class="offers-other">
+                <p class="offers-other-text">Skorzystaj z jednego z trzech głównych pakietów lub sprawdź <a
+                        href="offers.html">pozostałe oferty</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <!-- @include 'footer.kit' -->
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

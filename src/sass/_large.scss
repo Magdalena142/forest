@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+	.nav {
+		&__desktop {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			height: 100%;
+		}
+
+		&__btns {
+			display: none;
+		}
+		
+		&__burger-btn {
+			display: none;
+		}
+
+		&__brand {
+			a,
+			i {
+				color: black;
+			}
+		}
+	}
+	
+	.header {
+		background-image: url("../img/header-big.jpg");
+	}
+}

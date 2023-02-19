@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+
+    <script src="https://kit.fontawesome.com/7d9f555cba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- nawigacja -->
+    <div class="wrapper">
+    <nav class="nav">
+        <div class="nav__btns">
+            
+            <button class="nav__btn--open btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <button class="nav__btn--close btn">
+                <i class="fa-solid fa-x"></i>
+            </button>
+        </div>
+        <div class="nav__brand">
+            <a href="index.html"><i class="fa-solid fa-tree"></i>Forest</a>
+        </div>
+
+        <div class="nav__desktop">
+            <a class="nav-item active" href="index.html">Home</a>
+            <a class="nav-item" href="index.html#aboutus">O nas</a>
+            <a class="nav-item" href="index.html#offers">Oferta</a>
+            <a class="nav-item" href="contact.html">Kontakt</a>
+        </div>
+
+        <div class="nav__mobile">
+            <div class="nav__mobile-items">
+                <a class="nav-item active" href="index.html">Home</a>
+                <a class="nav-item" href="index.html#aboutus">O nas</a>
+                <a class="nav-item" href="index.html#offers">Oferta</a>
+                <a class="nav-item" href="contact.html">Kontakt</a>
+            </div>
+ 
+        </div>
+    </nav>
+
+</div>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__shadow"></div>
+        <h1 class="header__heading">Forest Group</h1>
+        <p class="header__text">Najpiękniejszy park w Twojej okolicy!</p>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <!-- o nas -->
+        <section id="aboutus" class="aboutus section-padding">
+            <div class="wrapper">
+                <h2 class="section-heading">O nas</h2>
+                <div class="aboutus__box">
+                    <div class="aboutus__box-img">
+                        <img src="dist/img/aboutus.jpg" alt="Ścieżka w tropikalnym lesie" class="aboutus__img">
+                    </div>
+                    <div class="aboutus__box-text">
+                        <h3 class="aboutus__title">Niezapomniane przygody</h3>
+                        <p class="aboutus__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+                            odit commodi, repellendus, dignissimos veniam fugiat corrupti molestiae similique tempore
+                            quaerat culpa praesentium eaque nihil possimus animi temporibus quisquam nisi voluptate,
+                            inventore soluta! Aut, doloribus tempora. Aperiam corporis modi nam fugiat deserunt
+                            reprehenderit fugit dignissimos perferendis doloremque temporibus saepe, quam quisquam,
+                            veniam distinctio? Quia dolorum vitae ut, unde velit cum at.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-img -->
+        <section class="hero-img">
+            <div class="hero-img__shadow"></div>
+            <p class="hero-img__title">Przygoda dla całej rodziny</p>
+        </section>
+
+        <!-- oferta -->
+        <section id="offers" class="offers wrapper section-padding">
+            <h2 class="section-heading">Oferta</h2>
+            <p class="offers-text">Wybierz jedną z naszych wspaniałych ofert!</p>
+            <div class="offers__cards">
+                <!-- -offers1 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$0</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                        </ul>
+                        <button class="offers__card-info-btn btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+                <!-- -offers2 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$99</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                            <li class="offers__card-info-list-item disabled"><i
+                                    class="fa-solid fa-minus disabled"></i>opcja poza pakietem</li>
+                        </ul>
+                        <button class="offers__card-info-btn colored btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+                <!-- -offers3 -->
+                <div class="offers__card">
+                    <div class="offers__card-info">
+                        <h3 class="offers__card-info-title">Demo</h3>
+                        <p class="offers__card-info-price">$299</p>
+                        <ul class="offers__card-info-list">
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                            <li class="offers__card-info-list-item"><i class="fa-solid fa-check"></i>opcja w pakiecie
+                            </li>
+                        </ul>
+                        <button class="offers__card-info-btn btn-special-animation">Wybierz</button>
+                    </div>
+                </div>
+            </div>
+            <div class="offers-other">
+                <p class="offers-other-text">Skorzystaj z jednego z trzech głównych pakietów lub sprawdź <a
+                        href="offers.html">pozostałe oferty</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="wrapper">
+        <div class="footer__boxes">
+
+            <div class="footer__box">
+                <h3 class="footer__box-brand"><i class="fa-solid fa-tree"></i>Forest</h3>
+            </div>
+
+            <div class="footer__box footer__box-desktop">
+                <h3 class="footer__box-title">O nas</h3>
+                <ul class="footer__box-list">
+                    <li class="footer__box-list-item"><a href="#">Historia</a></li>
+                    <li class="footer__box-list-item"><a href="#">Parki</a></li>
+                    <li class="footer__box-list-item"><a href="#">Opinie</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__box footer__box-desktop">
+                <h3 class="footer__box-title">Nasza firma</h3>
+                <ul class="footer__box-list">
+                    <li class="footer__box-list-item"><a href="#">Praca</a></li>
+                    <li class="footer__box-list-item"><a href="#">Kadry</a></li>
+                    <li class="footer__box-list-item"><a href="#">Zarząd</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__box footer__box-desktop">
+                <h3 class="footer__box-title">Dokumenty</h3>
+                <ul class="footer__box-list">
+                    <li class="footer__box-list-item"><a href="#">Wnioski</a></li>
+                    <li class="footer__box-list-item"><a href="#">Rezerwacje</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="footer__bottom-text">&copy;<span class="footer__year"></span> Forest Group Company Ltd.</p>
+</footer>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

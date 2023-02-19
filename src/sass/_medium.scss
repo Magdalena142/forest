@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+    .offers {
+        &__cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        &__card {
+            margin: 1em;
+            width: 45%;
+        }
+    }
+
+    .contact {
+        &__form-btn {
+            align-self: flex-end;
+            max-width: 300px;
+        }
+    }
+
+    .footer {
+        &__boxes {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__box-desktop {
+            display: block;
+        }
+
+        &__box {
+            &-brand {
+                font-size: 3em;
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+            &:first-child {
+                width: 50%;
+            }
+        }
+
+        &__box-title {
+            margin-bottom: 1em;
+            font-size: 2.2rem;
+        }
+
+        &__box-list {
+            list-style: none;
+        }
+
+        &__box-list-item {
+            margin-bottom: 1em;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

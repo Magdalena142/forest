@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- @include 'styles.kit' -->
+    <script src="https://kit.fontawesome.com/7d9f555cba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- @include 'nav.kit' -->
+    <section class="contact section-padding" id="contact">
+
+        <h2 class="section-heading">Kontakt</h2>
+
+        <div class="wrapper">
+
+            <form class="contact__form">
+
+                <div class="contact__form-top">
+                    <label for="name" class="contact__form-label">Imię i nazwisko</label>
+                    <input type="text" class="contact__form-input" id="name">
+
+                    <label for="email" class="contact__form-label">Adres e-mail</label>
+                    <input type="text" class="contact__form-input" id="email">
+                </div>
+
+                <label for="msg" class="contact__form-label">Wiadomość <i class="fa-regular fa-envelope"></i></label>
+                <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <!-- @include 'footer.kit' -->
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
